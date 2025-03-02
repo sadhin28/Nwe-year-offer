@@ -106,7 +106,6 @@ border-radius: 16px;
 background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
 background-image: url(/images/Vectorrr.png);
 /* padding: 50px 50px; */
-border: solid;
 border-radius: 16px;
 margin-top: -20px;
 display: flex;
@@ -148,3 +147,138 @@ text-align: left;
 text-transform: uppercase;
 }
 
+/* location */
+.locatin{
+    border-radius: 16px;
+
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    position: absolute;
+    width: 1320px;
+    height: 600px;
+    left:140px;
+    right: -140px;
+    top: 350.67%;
+    bottom: -282.67%;
+    border-radius: 16px;
+    /* padding: 50px 50px; */
+    border-radius: 16px;
+    margin-top: -20px;
+    display: flex;
+    direction:ltr;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+.location-title {
+    padding: 70px 70px ;
+    align-content: space-around;
+    align-content: center;
+    padding-left: 30%;
+}
+.location-title .hh{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+align-content: space-around;
+}
+.location-title .joinnow{
+    text-decoration: none;
+    
+}
+.clour-hh{
+   color: #FF0000;
+}
+.btn{
+    
+    /* Frame 1 */
+position: relative;
+width: 160px;
+height: 56px;
+/* Auto layout */
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 15px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-transform: uppercase;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 16px 32px 16px 32px;
+
+border-radius: 8px;
+
+background: rgb(255, 0, 0);
+border: none;
+cursor: pointer;
+}
+.join-btn{
+    padding: 70px 70px ;
+    align-content: space-around;
+    align-content: center;
+    padding-left: 30%;
+}
+/* comming  soon */
+.commin-soon{
+    border-radius: 16px;
+        position: absolute;
+        width: 1320px;
+        height: 463px;
+        left:140px;
+        right: -140px;
+        top: 450.67%;
+        bottom: -282.67%;
+        border-radius: 16px;
+        border-radius: 16px;
+        margin-top: -20px;
+        display: flex;
+        direction:ltr;
+        justify-content: space-between;
+        align-content: space-around;
+       gap: 50px;
+}
+.new-best-offer{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0%;
+text-align:left;
+}
+.comming-soon{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+}
+.comming-paragraph{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+text-align: justify;
+}
+.year{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: left;
+}
